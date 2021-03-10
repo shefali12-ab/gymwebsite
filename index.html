@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Fitnees</title>
+  </head>
+  <link rel="stylesheet" href="Css/style.css" />
+  <style>
+    /* css reset */
+    body {
+      background-image: url("image/33.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+      height: 6789999;
+    }
+    .left {
+      position: absolute;
+      left: 34px;
+      top: 30px;
+      border: 1px salmon;
+     /* border-style: solid; */
+      image-resolution: 2px;
+      color: white;
+      
+    }
+
+    .mid {
+      display: block;
+      width: 33%;
+      margin: 30px auto;
+      border: 1px rgb(114, 250, 137);
+      /*border-style: solid;*/
+     
+    }
+    .left div{
+      line-height: 2px;
+    font-size: 29px;
+    }
+
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 30px;
+      border: 1px rgb(192, 248, 60);
+      /*border-style: solid; */
+    }
+    p {
+      color: seashell;
+    }
+    a:hover{
+        color: black;
+    }
+    .navbar li{
+      display:inline-block;
+      padding: 20px;
+      font-size: 17px;
+    }
+    .navbar ul{
+      overflow: auto;
+    }
+    .navbar li a{
+      text-decoration: none;
+      color: white;
+      
+      
+      
+    }
+    .navbar li a:hover, .navbar li a.active{
+   
+      color: rgb(253, 0, 0);
+      text-decoration: underline;
+      
+      
+    }
+    header #rio{
+      border-image: 20px;
+    }
+    /*.navbar li{
+      float: left;
+      list-style: none;
+      padding: 20px 20px;
+    
+    } */
+    .left img{
+       width: 120px;
+       filter: invert();
+       
+    }
+    .left div{
+      text-align: center;
+      line-height: 2;
+    }
+    .btn{
+      margin: 0px 20px;
+      background-color: black;
+      color: white;
+      padding: 3px 4px;
+      border: 2px yellowgreen;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor:pointer;
+    }
+    .btn:hover{
+      background-color: rgb(119, 114, 114);
+    }
+
+    .container{
+      border:white;
+      border-style: solid;
+      color: white;
+      width: 489px;
+      padding-right: 30%;
+      margin-top: 50px;
+      margin-left: 407px;
+      padding: 106px 100px;
+      border-radius: 20px;
+
+      
+    }
+    .form-group input{
+      text-align: center;
+      display: block;
+      width: 500px;
+      padding: 10px;
+      border: 2px black;
+      border-radius: 5px;
+      margin: 11px auto;
+      font-size: 25px;
+
+    }
+    .container h1{
+      text-align: center;
+      font-size: 30px;
+      text-decoration: underline;
+    }
+    .container button{
+      display: block;
+      width: 107%;
+      margin: 10px auto;
+    }
+    
+  </style>
+  <body>
+    <header class="header">
+      <!--left class for logo-->
+      <div class="left">
+        <img id="rio"  src="image/arm-clipart-fitness-23.jpg" alt="">
+        <div >Shefali Fitness</div>
+      </div>
+      <br />
+      <!--mid box for nav bar-->
+      <div class="mid">
+       
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a  href="#">About</a></li>
+              <li><a href="#">Fitness Calculator</a></li>
+              <li><a href="#">Contact Us</a></li>
+             
+            </ul>
+          </nav>
+       
+
+      </div>
+      <br />
+      <!--Right box for buttons-->
+      <div class="right">
+      <button class="btn"> Call us</button>
+      <button class="btn"> Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best Gym of Lucknow Now</h1>
+      <br>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text"name="" placeholder="Enter your name">
+         
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="text"name="" placeholder="Enter your Age">
+         
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="text"name="" placeholder="Enter your Gender">
+         
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="text"name="" placeholder="Enter your Locality">
+         
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="text"name="" placeholder="Enter your Email">
+         
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="text"name="" placeholder="Enter your Contact number">
+         
+        </div>
+        <br>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
